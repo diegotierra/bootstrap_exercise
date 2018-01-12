@@ -39,17 +39,26 @@
     </nav>-->
 
     <main>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
       <section class="col-sm-6 col-lg-3">
-        <h2 id="bootstrap">Bootstrap</h2>
-        <p>
+        <h2 id="bootstrap">
+          <a class="collapsed" data-toggle="collapse" href="#collapsebootstrap" aria-expanded="false" aria-controls="collapsebootstrap">
+          Bootstrap
+          </a>
+        </h2>
+        <p id="collapsebootstrap" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
           <a href="https://getbootstrap.com/">Bootstrap</a> is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
         </p>
       </section>
 
       <section class="col-sm-6 col-lg-3">
-        <h2 id="bulma">Bulma</h2>
+        <h2 id="bulma">
+          <a class="collapsed" data-toggle="collapse" href="#collapsebulma" aria-expanded="false" aria-controls="collapsebulma">
+          Bulma
+          </a>
+        </h2>
+        <div id="collapsebulma" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
         <p>
           <a href="https://bulma.io/">Bulma</a> is a free and open source CSS framework based on Flexbox. It is:
         </p>
@@ -59,27 +68,39 @@
           <li>Built with Flexbox</li>
           <li>Open Source on GitHub</li>
         </ul>
+      </div>
       </section>
       <section class="col-sm-6 col-lg-3">
-        <h2 id="purecss">Pure CSS</h2>
+        <h2 id="purecss">
+          <a class="collapsed" data-toggle="collapse" href="#collapsepurecss" aria-expanded="false" aria-controls="collapsepurecss">
+          Pure CSS
+          </a>
+        </h2>
+        <div id="collapsepurecss" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
         <p>
           <a href="https://purecss.io/">Pure CSS</a> is a set of small, responsive CSS modules that you can use in every web project.
         </p>
         <p>
           Pure is ridiculously tiny. The entire set of modules clocks in at 3.8KB minified and gzipped. Crafted with mobile devices in mind, it was important to us to keep our file sizes small, and every line of CSS was carefully considered. If you decide to only use a subset of these modules, you'll save even more bytes.
         </p>
+      </div>
       </section>
 
       <section class="col-sm-6 col-lg-3">
-        <h2 id="materialize">Materialize</h2>
-        <p>
+      <h2 id="materialize">
+        <a class="collapsed" data-toggle="collapse" href="#collapsematerialize" aria-expanded="false" aria-controls="collapsematerialize">
+        Materialize
+        </a>
+      </h2>
+
+      <div id="collapsematerialize" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
           <a href="http://materializecss.com/">Materialize</a> is a modern responsive front-end framework based on Material Design. Materialize simplifies life for developers and the users they serve. It is:
-        </p>
         <ul>
           <li>Fast</li>
           <li>User Experience Focused</li>
           <li>Easy to work with</li>
         </ul>
+      </div>
       </section>
     </div>
   </div>
